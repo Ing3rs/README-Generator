@@ -1,0 +1,27 @@
+Task: 
+> create a command-line application that dynamically generates a professional README.md file from a user's input using the Inquirer package
+
+Professional README guide: 
+> https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide
+
+Required prompts: 
+> The title of my project
+> Sections entitled:
+    > Description
+    > Table of Contents
+        > When a user clicks on the links in the Table of Contents, they are taken to the corresponding section of the README.
+    > Installation
+    > Usage
+    > License
+        > When a user chooses a license for their application from a list of options, a badge for that license is added near the top of the README and a notice is added to the section of the README entitled License that explains which license the application is covered under.
+    > Contributing
+    > Tests
+    > Questions
+        > When a user enters their GitHub username, it's added to the section of the README entitled Questions, with a link to their GitHub profile.
+        > When a user enters their email address, it's added to the section of the README entitled Questions, with instructions on how to reach them with additional questions.
+
+
+General points: 
+> should be involved by node index.js
+> will need to provide a walkthrough video (https://coding-boot-camp.github.io/full-stack/computer-literacy/video-submission-guide)
+
