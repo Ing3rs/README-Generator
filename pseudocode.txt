@@ -25,3 +25,8 @@ General points:
 > should be involved by node index.js
 > will need to provide a walkthrough video (https://coding-boot-camp.github.io/full-stack/computer-literacy/video-submission-guide)
 
+
+---
+
+To add: 
+> skip items

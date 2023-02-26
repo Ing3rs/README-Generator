@@ -6,19 +6,59 @@ const generateMarkdown = require("./utils/generateMarkdown");
 // array of questions for user
 const questions = [
     {
+        // project title
         type: 'input',
         name: 'title',
         message: 'What is the name of your project?',
     },
     {
+        // project description
         type: 'input',
-        name: 'location',
-        message: 'Where are you from?',
+        name: 'description',
+        message: 'Please provide a description of your project',
     },
     {
-        type: 'xxx',
-        name: 'xxx',
-        message: 'xxx',
+        // installation
+        type: 'input',
+        name: 'installation',
+        message: 'What are the steps required to install your project?',
+    },
+    {
+        // usage
+        type: 'input',
+        name: 'usage',
+        message: 'Please provide instructions (make sure to include screenshots later).',
+    },
+    {
+        // license [how do make it add the badge??]
+        type: 'checkbox',
+        name: 'license',
+        message: 'Which license would you like to use for your project?',
+        choices: ['MIT', 'Other', 'GPLv2', 'Apache', 'GPLv3'],
+    },
+    {
+        // contributing
+        type: 'input',
+        name: 'contributing',
+        message: 'Would you like other developers to contribute to your project? If so, please tell me how they can do this.',
+    },
+    {
+        // tests
+        type: 'input',
+        name: 'tests',
+        message: 'Have you written any tests for your application? Provide examples on how to run them.',
+    },
+    {
+        // questions - github username
+        type: 'input',
+        name: 'githubUsername',
+        message: 'Almost done... what is your GitHub username?',
+    },
+    {
+        // questions - email address
+        type: 'input',
+        name: 'email',
+        message: 'Last question! What is the best email address for people to contact you at?',
     },
 ];
 
