@@ -10,7 +10,7 @@ This project is designed to quickly and easily create a README file by using a c
 
 * [Installation](#Installation)
 * [Usage](#Usage)
-* [Next steps](#Nextsteps)
+* [Next steps](#Next-steps)
 * [Questions](#Questions)
 * [License](#License)
 
