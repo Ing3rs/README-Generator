@@ -43,7 +43,7 @@ In future, I would like to:
 
 ## Questions
 
-* If you have any questions, please drop me an email at email.claireingram@gmail.com
+* If you have any questions, please drop me an email at mail.claireingram@gmail.com
 * Feel free to also take a look through my [GitHub](https://www.github.com/ing3rs) to see what other projects I'm working on
 
 
