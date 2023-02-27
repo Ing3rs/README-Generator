@@ -30,7 +30,7 @@ const questions = [
         message: 'Please provide instructions (make sure to include screenshots later).',
     },
     {
-        // license [how do make it add the badge??]
+        // license
         type: 'checkbox',
         name: 'license',
         message: 'Which license would you like to use for your project?',
@@ -66,7 +66,7 @@ const questions = [
 function writeToFile(fileName, data) {
 
     // write data to README file
-    fs.writeFile('test.md', (data), (err) =>
+    fs.writeFile('generatedREADME.md', (data), (err) =>
 
     // give success message if written to README, otherwise error
         err ? console.error(err) : console.log("Successfully written to README!")
