@@ -34,7 +34,7 @@ const questions = [
         type: 'checkbox',
         name: 'license',
         message: 'Which license would you like to use for your project?',
-        choices: ['MIT', 'Other', 'GPLv2', 'Apache', 'GPLv3'],
+        choices: ['MIT', 'Apache 2.0', 'GNU GPL v3', 'GNU GPL v2', 'BSD 3-Clause License'], // these are based on the top 5 most used licenses
     },
     {
         // contributing
